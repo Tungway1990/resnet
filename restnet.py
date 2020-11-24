@@ -59,11 +59,15 @@ X,X_shortcut=Conv_block(X,X_shortcut,64,(1, 1),'2.3.')
 X,X_shortcut=Skip_connect_block(X,X_shortcut,128,'3.1.')
 X,X_shortcut=Conv_block(X,X_shortcut,128,(1, 1),'3.2.')
 X,X_shortcut=Conv_block(X,X_shortcut,128,(1, 1),'3.3.')
+X,X_shortcut=Conv_block(X,X_shortcut,128,(1, 1),'3.4.')
 
 #Conv4
 X,X_shortcut=Skip_connect_block(X,X_shortcut,256,'4.1.')
 X,X_shortcut=Conv_block(X,X_shortcut,256,(1, 1),'4.2.')
 X,X_shortcut=Conv_block(X,X_shortcut,256,(1, 1),'4.3.')
+X,X_shortcut=Conv_block(X,X_shortcut,256,(1, 1),'4.4.')
+X,X_shortcut=Conv_block(X,X_shortcut,256,(1, 1),'4.5.')
+X,X_shortcut=Conv_block(X,X_shortcut,256,(1, 1),'4.6.')
 
 #Conv5
 X,X_shortcut=Skip_connect_block(X,X_shortcut,512,'5.1.')
