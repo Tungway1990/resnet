@@ -1,5 +1,5 @@
 from tensorflow import keras
-from tensorflow.keras.layers import Conv2D,Flatten,Dense,Input,BatchNormalization,Add,AveragePooling2D
+from tensorflow.keras.layers import Conv2D,Flatten,Dense,Input,BatchNormalization,Add,AveragePooling2D,ZeroPadding2D
 
 input_shape = [224,224,3]
 classes=1000
