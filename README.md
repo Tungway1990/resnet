@@ -1,4 +1,4 @@
-Restnet34 coding based on orginial paper
+Restnet coding based on orginial paper
 
 Data downloaded from https://www.kaggle.com/alxmamaev/flowers-recognition
 
